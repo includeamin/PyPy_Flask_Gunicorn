@@ -13,7 +13,7 @@ def get_index():
 
 from mysql import connector
 def test():
-    data = connector.connect(host='www.upsketchup.ir',port=3306, database='upsketch_app', user='upsketch', password='Aq9JC6Um9Fb3F3a',
+    data = connector.connect(host='www.upsketchup.ir',port=3306, database='upsketch_app', user='upsketch', password='',
                              db="upsketch_app")
     print(data)
     print("hello")
